@@ -1,0 +1,168 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    font-family: Century Gothic;
+}
+.nav{
+    width: 100%;
+    height: 80px;
+    background: rgb(36, 36, 116);
+    margin: center;
+    position: relative;
+}
+.left{
+    width: 300px;
+    height: 50px;
+}
+.left h3{
+    font-size: x-large;
+    margin-top: 25px;
+    margin-left: 50px;
+    color: white;
+}
+.right{
+    width: 800px;
+    height: 80px;
+    position: absolute;
+    margin-left: 400px;
+}
+.right li{
+    width: 120px;
+    height: 40px;
+    margin-top: 20px;
+    float: left;
+    list-style: none;
+    text-align: center;
+    font-size:large;
+    color: white;
+}
+.right a{
+    color: white;
+    text-decoration: none;
+    transition: 0.4s;
+}
+.right a:hover{
+    color: rgb(106, 106, 202);
+}
+.last{
+    width: 100px;
+    height: 60px;
+    float: right;
+    margin-left: 1180px;
+    position: absolute;
+}
+.last h6{
+    margin-top: -34px;
+    margin-left: 100px;
+    color: white;
+}
+.last h6:hover{
+    transition: 0.2s;
+    color: rgb(155, 155, 224);
+}
+.last img{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.last a{
+    text-decoration: none;
+}
+.body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(business2.png);
+    background-position: center;
+    background-size: cover;
+}
+.wrapper{
+    width: 450px;
+    color: white;
+    border-radius: 10px;
+    padding: 30px 40px;
+    border: 2px solid rgb(255, 255, 255, .2);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px rgb(0, 0, 0, .2);
+}
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+}
+.wrapper .input-box{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    position: relative;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+.input-box input::placeholder{
+    color: white;
+}
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+.remember_forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+.remember_forgot label input{
+    accent-color: #fff;
+    margin-right: 3px;
+}
+.remember_forgot a{
+    color: #fff;
+    text-decoration: none;
+}
+.remember_forgot a:hover{
+    text-decoration: underline;
+}
+.wrapper .btn{
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+.wrapper .register_link{
+    font-size: 14.5px;
+    text-align: center;
+    margin-top: 20px;
+}
+.register_link p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.register_link p a:hover{
+    text-decoration: underline;
+}
